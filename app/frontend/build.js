@@ -27,3 +27,4 @@ for (const f of fs.readdirSync('dist')) {
   console.log(`dist/${f}  ${fs.statSync(`dist/${f}`).size} bytes`);
 }
 console.log(`build finished at ${builtAt}`);
+
