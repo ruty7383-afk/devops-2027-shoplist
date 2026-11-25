@@ -11,8 +11,10 @@ jobs:
       - name: What is in the repo?
         run: ls
 
-      - name: Get the code
-        uses: actions/checkout@v6
+     
 
       - name: Show the files
         run: ls
+
+      - name: Get the code
+        uses: actions/checkout@v6
